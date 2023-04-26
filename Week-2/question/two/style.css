@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  height: 60vh;
+  width: 60vh;
+  display: flex;
+  background-color: pink;
+  flex-wrap: wrap;
+  transition: transform 1s;
+}
+
+.main-container > div[class^="main-container"] {
+  height: 30vh;
+  width: 30vh;
+}
+
+.main-container-one {
+  background-color: red;
+}
+.main-container > .main-container-one:hover {
+  /* transform: rotate(90deg) translateX(50px); */
+
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.main-container-two {
+  background-color: yellow;
+}
+
+.main-container-three {
+  background-color: darkblue;
+}
+
+.main-container-four {
+  background-color: darkgreen;
+  transition: all 0.7s ease;
+}
+.main-container-four:hover {
+  transform: rotate(90deg) translateY(-100px);
+}

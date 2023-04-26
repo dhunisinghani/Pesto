@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+
+/* .container {
+  margin-top: 100px;
+} */
+.container-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-column {
+  flex: 50%;
+  max-width: 40vh;
+  text-align: left;
+}
+
+.article-header {
+  font-weight: bold;
+}
+
+.container-column-imgCenter {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

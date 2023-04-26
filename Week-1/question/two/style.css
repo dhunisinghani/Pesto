@@ -1,0 +1,104 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Lato, sans-serif;
+}
+
+main {
+  /* flex: 0, 0, auto; */
+  display: flex;
+}
+
+aside {
+  position: relative;
+  display: flex;
+  flex: 0 0 40px;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 90vh;
+}
+footer {
+  position: absolute;
+  color: #fff;
+  background-color: rgba(61, 100, 158, 0.9);
+  display: flex;
+  padding: 5px;
+  width: 98vw;
+  bottom: 0px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer > div {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+#content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+#catty-head {
+  flex: 0 0 280px;
+  display: flex;
+  padding: 40px;
+  width: 92.5vw;
+  background-color: #4e4e4e;
+}
+
+#catty-title {
+  font-size: 1.5em;
+  color: white;
+  margin-top: 0px;
+  margin-left: 40px;
+}
+
+#catty-artist {
+  font-size: 1em;
+  color: white;
+  margin-left: 40px;
+}
+
+#catty-description {
+  font-size: 1em;
+  color: white;
+  line-height: 0px;
+  margin-left: 40px;
+}
+
+#catty-actions {
+  position: relative;
+  font-size: 1em;
+  color: white;
+  margin-left: 40px;
+  top: 157px;
+}
+
+#footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.music-list {
+  flex: 1 0 auto;
+  list-style-type: none;
+  padding: 5px 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.music-element {
+  display: flex;
+  flex: 1 0 auto;
+  padding: 5px 10px 0px;
+}
+li:nth-child(even) {
+  background-color: #f2f2f2;
+}
